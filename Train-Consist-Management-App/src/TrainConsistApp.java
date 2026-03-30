@@ -21,22 +21,17 @@ public class TrainConsistApp {
 
         System.out.println("Bogies after addition: " + bogies);
 
-        // 🔹 Remove one bogie
-        System.out.println("\n--- Removing Bogie ---");
+        // Remove one bogie
         bogies.remove("AC Chair");
-
         System.out.println("Bogies after removal: " + bogies);
 
-        // 🔹 Check existence
-        System.out.println("\n--- Checking Existence ---");
+        // Check existence
         if (bogies.contains("Sleeper")) {
             System.out.println("Sleeper bogie exists.");
-        } else {
-            System.out.println("Sleeper bogie does not exist.");
         }
 
-        // 🔹 Final state
-        System.out.println("\nFinal Train Consist: " + bogies);
+        // Final list
+        System.out.println("Final Train Consist: " + bogies);
 
         System.out.println("\nProgram continues...");
     }
